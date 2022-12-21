@@ -22,4 +22,5 @@ urlpatterns = [
     path('jet/dashboard/', include('jet.dashboard.urls',
          'jet-dashboard')),  # Django JET dashboard URLS
     path('api/v1/', include('projects.urls')),  # Project App URLS
+    path('api/v1/', include('blog.urls')),  # Blog App URLS
 ]
