@@ -13,10 +13,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.urls import path  # pylint: disable=import-error
-from django.contrib import admin  # pylint: disable=import-error
-
-
+from django.contrib import admin
+from django.urls import path
+import json
 urlpatterns = [
     path("admin/", admin.site.urls),
 ]
