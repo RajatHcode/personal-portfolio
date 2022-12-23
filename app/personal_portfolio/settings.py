@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-
+from django.core.management.utils import djangoutils
 
 # Testing force push in github master branch
 # Script added to the .git/hooks-pre-push file
