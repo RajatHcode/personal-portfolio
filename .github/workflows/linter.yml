@@ -44,7 +44,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_ISORT: true
-          VALIDATE_PYTHON_FLAKE8: true
+          VALIDATE_PYTHON_FLAKES: true
           VALIDATE_PYTHON_PYLINT: true
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
