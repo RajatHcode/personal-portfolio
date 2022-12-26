@@ -14,6 +14,7 @@ Including another URLconf
     2. Add aia URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 import json
+# test lint
 
 from django.contrib import admin
 from django.urls import path
